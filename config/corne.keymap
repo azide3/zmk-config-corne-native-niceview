@@ -30,181 +30,217 @@
         compatible = "zmk,combos";
 
         combo_bt_setting {
+            timeout-ms = <50>;
             bindings = <&to 4>;
             key-positions = <29 38 37>;
         };
 
         combo_to_number {
+            timeout-ms = <50>;
             bindings = <&to 2>;
             key-positions = <19 20 21 40>;
         };
 
         combo_to_mouse {
+            timeout-ms = <50>;
             bindings = <&to 3>;
             key-positions = <14 15 16 37>;
         };
 
         combo_to_home {
+            timeout-ms = <50>;
             bindings = <&to 0>;
             key-positions = <37 38>;
         };
 
         combo_esc {
+            timeout-ms = <25>;
             bindings = <&kp ESCAPE>;
             key-positions = <12 13>;
         };
 
         combo_playpause {
+            timeout-ms = <25>;
             bindings = <&kp C_PP>;
             key-positions = <5 6>;
         };
 
         combo_left_parenthesis {
+            timeout-ms = <25>;
             bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <7 8>;
         };
 
         combo_right_parenthesis {
+            timeout-ms = <25>;
             bindings = <&kp RIGHT_PARENTHESIS>;
             key-positions = <8 9>;
         };
 
         combo_vol_up {
+            timeout-ms = <25>;
             bindings = <&kp C_VOLUME_UP>;
             key-positions = <27 26>;
         };
 
         combo_vol_down {
+            timeout-ms = <25>;
             bindings = <&kp C_VOLUME_DOWN>;
             key-positions = <26 25>;
         };
 
         combo_mute {
+            timeout-ms = <25>;
             bindings = <&kp C_MUTE>;
             key-positions = <26 27>;
         };
 
         combo_plus {
+            timeout-ms = <25>;
             bindings = <&kp PLUS>;
             key-positions = <34 22>;
         };
 
         combo_minus {
+            timeout-ms = <25>;
             bindings = <&kp MINUS>;
             key-positions = <22 21>;
         };
 
         combo_multiply {
+            timeout-ms = <25>;
             bindings = <&kp ASTERISK>;
             key-positions = <33 22>;
         };
 
         combo_divide {
+            timeout-ms = <25>;
             bindings = <&kp SLASH>;
             key-positions = <34 21>;
         };
 
         combo_equal {
+            timeout-ms = <25>;
             bindings = <&kp EQUAL>;
             key-positions = <34 33>;
         };
 
         combo_no1 {
+            timeout-ms = <35>;
             bindings = <&kp NUMBER_1>;
             key-positions = <40 31>;
         };
 
         combo_no2 {
+            timeout-ms = <35>;
             bindings = <&kp NUMBER_2>;
             key-positions = <40 32>;
         };
 
         combo_no3 {
+            timeout-ms = <35>;
             bindings = <&kp NUMBER_3>;
             key-positions = <40 33>;
         };
 
         combo_no4 {
+            timeout-ms = <35>;
             bindings = <&kp NUMBER_4>;
             key-positions = <40 19>;
         };
 
         combo_no5 {
+            timeout-ms = <35>;
             bindings = <&kp NUMBER_5>;
             key-positions = <40 20>;
         };
 
         combo_no6 {
+            timeout-ms = <35>;
             bindings = <&kp NUMBER_6>;
             key-positions = <21 40>;
         };
 
         combo_no7 {
+            timeout-ms = <35>;
             bindings = <&kp NUMBER_7>;
             key-positions = <40 7>;
         };
 
         combo_no8 {
+            timeout-ms = <35>;
             bindings = <&kp NUMBER_8>;
             key-positions = <8 40>;
         };
 
         combo_no9 {
+            timeout-ms = <35>;
             bindings = <&kp NUMBER_9>;
             key-positions = <9 40>;
         };
 
         combo_no0 {
+            timeout-ms = <35>;
             bindings = <&kp NUMBER_0>;
             key-positions = <40 22>;
         };
 
         combo_spaces_left {
+            timeout-ms = <35>;
             bindings = <&kp F7>;
             key-positions = <2 14>;
         };
 
         combo_spaces_right {
+            timeout-ms = <35>;
             bindings = <&kp F9>;
             key-positions = <5 17>;
         };
 
         combo_track_prev {
+            timeout-ms = <35>;
             bindings = <&kp C_PREV>;
             key-positions = <25 26 27>;
         };
 
         combo_track_next {
+            timeout-ms = <35>;
             bindings = <&kp C_NEXT>;
             key-positions = <28 27 26>;
         };
 
         combo_change_language {
+            timeout-ms = <35>;
             bindings = <&kp LC(SPACE)>;
             key-positions = <16 17 18 19>;
         };
 
         combo_spaces {
+            timeout-ms = <35>;
             bindings = <&kp F8>;
             key-positions = <2 4>;
         };
 
         combo_homerow_scroll {
+            timeout-ms = <35>;
             bindings = <&kp LA(LC(LG(W)))>;
             key-positions = <22 40>;
         };
 
         combo_homerow_search {
+            timeout-ms = <35>;
             bindings = <&kp LA(LC(LG(Q)))>;
             key-positions = <36 41>;
         };
 
         combo_moom_toggle {
+            timeout-ms = <35>;
             bindings = <&kp LA(LG(LC(E)))>;
             key-positions = <2 3>;
         };
 
         combo_skmr {
+            timeout-ms = <50>;
             bindings = <&macro_skmr>;
             key-positions = <37 28 40 31>;
         };
@@ -251,10 +287,10 @@
 
         mouse {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+&trans  &trans  &trans  &gqt LG(LEFT) LC(LS(TAB))  &gqt LG(RIGHT) LC(TAB)  &mwh SCROLL_UP    &mwh SCROLL_UP    &mwh SCROLL_LEFT  &mmv MOVE_UP    &mwh SCROLL_RIGHT  &trans  &trans
+&PAGE_UP  &kp PAGE_DOWN  &mkp MB3   &mkp RCLK  &mkp LCLK &mwh SCROLL_DOWN  &mwh SCROLL_DOWN  &mmv MOVE_LEFT &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp PAGE_DOWN &kp PAGE_UP
+&trans  &trans  &trans  &kp LG(C)   &kp LG(V) &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &to 0  &trans  &trans    &mkp LCLK      &mkp RCLK   &trans
             >;
         };
 
