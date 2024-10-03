@@ -178,6 +178,31 @@
             bindings = <&kp C_NEXT>;
             key-positions = <28 27 26>;
         };
+
+        combo_change_language {
+            bindings = <&kp LC(SPACE)>;
+            key-positions = <16 17 18 19>;
+        };
+
+        combo_spaces {
+            bindings = <&kp F8>;
+            key-positions = <2 4>;
+        };
+
+        combo_homerow_scroll {
+            bindings = <&kp LA(LC(LG(W)))>;
+            key-positions = <22 40>;
+        };
+
+        combo_homerow_search {
+            bindings = <&kp LA(LC(LG(Q)))>;
+            key-positions = <36 41>;
+        };
+
+        combo_moom_toggle {
+            bindings = <&kp LA(LG(LC(E)))>;
+            key-positions = <2 3>;
+        };
     };
 
     keymap {
