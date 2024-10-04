@@ -257,7 +257,7 @@
         };
 
         combo_homerow_searchword {
-            bindings = <&kp LG(LA(LC(R)))>;
+            bindings = <&kp LG(LA(LC(T)))>;
             key-positions = <18 20>;
         };
     };
