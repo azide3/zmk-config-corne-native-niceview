@@ -258,7 +258,7 @@
 
         combo_homerow_searchword {
             bindings = <&kp LG(LA(LC(T)))>;
-            key-positions = <18 20>;
+            key-positions = <19 8>;
         };
     };
 
@@ -287,7 +287,7 @@
             bindings = <
 &trans       &kp PAGE_UP  &trans          &gqt LG(LEFT) LS(LC(TAB))  &gqt LG(RIGHT) LC(TAB)  &kp LG(Z)             &none                 &kp LA(LEFT)  &kp UP             &kp LA(RIGHT)  &none              &trans
 &kp PAGE_UP  &kp PG_DN    &kp LEFT_SHIFT  &sk LEFT_ALT               &sk LEFT_GUI            &sk LCTRL             &kp LS(LG(LEFT))      &kp LEFT      &kp DOWN           &kp RIGHT      &kp LS(LG(RIGHT))  &trans
-&none        &none        &kp LG(X)       &kp LG(C)                  &kp LG(V)               &kp LG(LS(Z))         &trans                &trans        &trans             &trans         &kp LC(LA(LGUI))   &none
+&none        &to 3        &kp LG(X)       &kp LG(C)                  &kp LG(V)               &kp LG(LS(Z))         &trans                &trans        &trans             &trans         &kp LC(LA(LGUI))   &none
                                           &to 0                      &kp LSHFT               &gqt LS(RET) ENTER    &gqt LG(SPACE) SPACE  &kp BSPC      &kp LA(LC(LG(Q)))
             >;
         };
