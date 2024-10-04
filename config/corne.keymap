@@ -250,6 +250,16 @@
             bindings = <&kp LG(ESCAPE)>;
             key-positions = <1 2>;
         };
+
+        combo_homerow_search2 {
+            bindings = <&kp LA(LC(LG(Q)))>;
+            key-positions = <19 21>;
+        };
+
+        combo_homerow_searchword {
+            bindings = <&kp LG(LA(LC(R)))>;
+            key-positions = <18 20>;
+        };
     };
 
     macros {
