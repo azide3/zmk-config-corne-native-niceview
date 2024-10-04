@@ -225,7 +225,7 @@
         combo_homerow_scroll {
             timeout-ms = <35>;
             bindings = <&kp LA(LC(LG(W)))>;
-            key-positions = <22 40>;
+            key-positions = <22 9>;
         };
 
         combo_homerow_search {
