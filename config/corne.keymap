@@ -189,7 +189,7 @@
         combo_spaces_left {
             timeout-ms = <35>;
             bindings = <&kp F7>;
-            key-positions = <2 14>;
+            key-positions = <1 13>;
         };
 
         combo_spaces_right {
@@ -259,6 +259,11 @@
         combo_homerow_searchword {
             bindings = <&kp LG(LA(LC(T)))>;
             key-positions = <19 8>;
+        };
+
+        combo_spaces_left_2 {
+            bindings = <&kp F7>;
+            key-positions = <2 14>;
         };
     };
 
