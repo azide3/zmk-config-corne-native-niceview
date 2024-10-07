@@ -57,7 +57,7 @@
         combo_esc {
             timeout-ms = <25>;
             bindings = <&kp ESCAPE>;
-            key-positions = <13 2>;
+            key-positions = <2 1>;
         };
 
         combo_playpause {
@@ -244,11 +244,6 @@
             timeout-ms = <50>;
             bindings = <&macro_skmr>;
             key-positions = <37 28 40 31>;
-        };
-
-        combo_singapura_esc {
-            bindings = <&kp LG(ESCAPE)>;
-            key-positions = <1 2>;
         };
 
         combo_homerow_search2 {
