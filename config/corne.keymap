@@ -248,12 +248,12 @@
 
         combo_homerow_search2 {
             bindings = <&kp LA(LC(LG(Q)))>;
-            key-positions = <19 21>;
+            key-positions = <19 7>;
         };
 
         combo_homerow_searchword {
             bindings = <&kp LG(LA(LC(T)))>;
-            key-positions = <9 7>;
+            key-positions = <6 18>;
         };
 
         combo_spaces_left_2 {
