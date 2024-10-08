@@ -237,7 +237,7 @@
         combo_moom_toggle {
             timeout-ms = <35>;
             bindings = <&kp LA(LG(LC(E)))>;
-            key-positions = <2 3>;
+            key-positions = <14 16>;
         };
 
         combo_skmr {
@@ -253,7 +253,7 @@
 
         combo_homerow_searchword {
             bindings = <&kp LG(LA(LC(T)))>;
-            key-positions = <19 8>;
+            key-positions = <9 7>;
         };
 
         combo_spaces_left_2 {
@@ -285,10 +285,10 @@
 
         nav {
             bindings = <
-&trans        &trans            &msc SCRL_UP    &gqt LG(LEFT) LS(LC(TAB))  &gqt LG(RIGHT) LC(TAB)  &kp LG(Z)             &msc SCRL_UP                 &kp LA(LEFT)  &kp UP             &kp LA(RIGHT)  &kp PAGE_UP       &trans
-&msc SCRL_UP  &msc SCRL_DOWN    &kp LEFT_SHIFT  &sk LEFT_ALT               &sk LEFT_GUI            &sk LCTRL             &msc SCRL_DOWN               &kp LEFT      &kp DOWN           &kp RIGHT      &kp PAGE_DOWN     &kp PAGE_UP
-&none        &to 3        &kp LG(X)       &kp LG(C)                  &kp LG(V)               &kp LG(LS(Z))         &trans                &trans        &trans             &trans         &kp LC(LA(LGUI))  &none
-                                          &to 0                      &kp LSHFT               &gqt LS(RET) ENTER    &gqt LG(SPACE) SPACE  &kp BSPC      &kp LA(LC(LG(Q)))
+&trans        &trans          &msc SCRL_UP    &gqt LG(LEFT) LS(LC(TAB))  &gqt LG(RIGHT) LC(TAB)  &kp LG(Z)             &msc SCRL_UP          &kp LA(LEFT)  &kp UP             &kp LA(RIGHT)  &kp PAGE_UP       &trans
+&msc SCRL_UP  &msc SCRL_DOWN  &kp LEFT_SHIFT  &sk LEFT_ALT               &sk LEFT_GUI            &sk LCTRL             &msc SCRL_DOWN        &kp LEFT      &kp DOWN           &kp RIGHT      &kp PAGE_DOWN     &kp PAGE_UP
+&none         &to 3           &kp LG(X)       &kp LG(C)                  &kp LG(V)               &kp LG(LS(Z))         &trans                &trans        &trans             &trans         &kp LC(LA(LGUI))  &none
+                                              &to 0                      &kp LSHFT               &gqt LS(RET) ENTER    &gqt LG(SPACE) SPACE  &kp BSPC      &kp LA(LC(LG(Q)))
             >;
         };
 
