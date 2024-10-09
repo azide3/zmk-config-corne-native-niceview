@@ -273,7 +273,7 @@
             bindings = <
 &trans        &gqt TILDE Q  &kp W  &kp E         &kp R            &kp T                   &kp Y                 &kp U                    &kp I                    &kp O                      &gqt SQT P            &trans
 &gqt TILDE Q  &kp A         &kp S  &gqt TAB D    &gqt LEFT_GUI F  &kp G                   &kp H                 &gqt LEFT_ALT J          &kp K                    &kp L                      &gqt MINUS SEMICOLON  &gqt SQT P
-&trans        &kp Z         &kp X  &gqt LG(C) C  &gqt LG(V) V     &gqt LG(B) B            &gqt LG(N) N          &kp M                    &gqt LEFT_BRACKET COMMA  &gqt RIGHT_BRACKET PERIOD  &gqt BACKSLASH SLASH  &trans
+&trans        &kp Z         &kp X  &gqt LG(C) C  &gqt LG(V) V     &gqt LG(B) B            &kp N                 &kp M                    &gqt LEFT_BRACKET COMMA  &gqt RIGHT_BRACKET PERIOD  &gqt BACKSLASH SLASH  &trans
                                    &mo 1         &kp LSHFT        &gqt LS(ENTER) ENTER    &gqt LG(SPACE) SPACE  &gqt LG(BSPC) BACKSPACE  &to 1
             >;
         };
