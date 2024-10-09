@@ -237,7 +237,7 @@
         combo_moom_toggle {
             timeout-ms = <35>;
             bindings = <&kp LA(LG(LC(E)))>;
-            key-positions = <14 16>;
+            key-positions = <14 2>;
         };
 
         combo_skmr {
@@ -254,11 +254,6 @@
         combo_homerow_searchword {
             bindings = <&kp LG(LA(LC(T)))>;
             key-positions = <6 18>;
-        };
-
-        combo_spaces_left_2 {
-            bindings = <&kp F7>;
-            key-positions = <2 14>;
         };
     };
 
