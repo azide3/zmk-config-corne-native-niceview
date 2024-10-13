@@ -280,7 +280,7 @@
 
         nav {
             bindings = <
-&trans        &trans          &msc SCRL_UP    &gqt LC(LEFT) LS(LC(TAB))  &gqt LC(RIGHT) LC(TAB)  &kp LC(Z)        &msc SCRL_UP    &kp LA(LEFT)  &kp UP             &kp LA(RIGHT)  &kp PAGE_UP       &trans
+&trans        &trans          &msc SCRL_UP    &gqt LC(LEFT) LS(LG(TAB))  &gqt LC(RIGHT) LG(TAB)  &kp LC(Z)        &msc SCRL_UP    &kp LA(LEFT)  &kp UP             &kp LA(RIGHT)  &kp PAGE_UP       &trans
 &msc SCRL_UP  &msc SCRL_DOWN  &kp LEFT_SHIFT  &sk LEFT_ALT               &sk LCTRL               &sk LEFT_GUI     &msc SCRL_DOWN  &kp LEFT      &kp DOWN           &kp RIGHT      &kp PAGE_DOWN     &kp PAGE_UP
 &none         &to 3           &none           &kp LC(C)                  &kp LC(V)               &kp LS(LC(Z))    &trans          &trans        &trans             &trans         &kp LC(LA(LGUI))  &none
                                               &to 0                      &kp LSHFT               &trans           &trans          &trans        &kp LA(LC(LG(Q)))
