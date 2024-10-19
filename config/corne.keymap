@@ -325,10 +325,10 @@
 
         nav_android {
             bindings = <
-&trans        &kp LG(ENTER)   &msc SCRL_UP    &gqt LG(LEFT) LS(LC(TAB))  &gqt LG(RIGHT) LC(TAB)  &kp LG(Z)        &msc SCRL_UP    &kp LA(LEFT)  &kp UP             &kp LA(RIGHT)  &kp PAGE_UP        &trans
-&msc SCRL_UP  &msc SCRL_DOWN  &kp LEFT_SHIFT  &sk LEFT_ALT               &sk LEFT_GUI            &sk LCTRL        &msc SCRL_DOWN  &kp LEFT      &kp DOWN           &kp RIGHT      &kp PAGE_DOWN      &kp PAGE_UP
-&none         &to 3           &none           &kp LG(C)                  &kp LG(V)               &kp LS(LG(Z))    &trans          &trans        &trans             &trans         &kp LC(LA(LG(R)))  &none
-                                              &to 0                      &kp LSHFT               &trans           &trans          &trans        &kp LA(LC(LG(Q)))
+&trans        &kp LG(ENTER)   &msc SCRL_UP    &gqt K_BACK LS(LC(TAB))  &gqt K_FORWARD LC(TAB)  &kp LG(Z)        &msc SCRL_UP    &kp LA(LEFT)  &kp UP             &kp LA(RIGHT)  &kp PAGE_UP        &trans
+&msc SCRL_UP  &msc SCRL_DOWN  &kp LEFT_SHIFT  &sk LEFT_ALT             &sk LEFT_GUI            &sk LCTRL        &msc SCRL_DOWN  &kp LEFT      &kp DOWN           &kp RIGHT      &kp PAGE_DOWN      &kp PAGE_UP
+&none         &to 3           &none           &kp LG(C)                &kp LG(V)               &kp LS(LG(Z))    &trans          &trans        &trans             &trans         &kp LC(LA(LG(R)))  &none
+                                              &to 0                    &kp LSHFT               &trans           &trans          &trans        &kp LA(LC(LG(Q)))
             >;
         };
     };
