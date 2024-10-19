@@ -319,19 +319,19 @@
 
         nav_android {
             bindings = <
-&none         &kp LA(F4)      &msc SCRL_UP    &gqt C_AC_BACK LS(LG(TAB))  &gqt C_AC_FORWARD LG(TAB)  &kp LG(Z)        &msc SCRL_UP    &kp LG(LEFT)    &kp UP    &kp LG(RIGHT)   &kp PAGE_UP    &none
-&msc SCRL_UP  &msc SCRL_DOWN  &kp LEFT_SHIFT  &sk LCTRL                   &sk LEFT_GUI               &sk LEFT_ALT     &msc SCRL_DOWN  &gqt HOME LEFT  &kp DOWN  &gqt END RIGHT  &kp PAGE_DOWN  &kp PAGE_UP
-&none         &to 7           &none           &kp LG(C)                   &kp LG(V)                  &kp LS(LG(Z))    &none           &none           &none     &none           &none          &none
-                                              &to 5                       &kp LSHFT                  &trans           &trans          &trans          &none
+&none         &kp LA(F4)      &msc SCRL_UP    &gqt LG(LEFT) LS(LG(TAB))  &gqt LG(RIGHT) LG(TAB)  &kp LG(Z)        &msc SCRL_UP    &kp LG(LEFT)    &kp UP    &kp LG(RIGHT)   &kp PAGE_UP    &none
+&msc SCRL_UP  &msc SCRL_DOWN  &kp LEFT_SHIFT  &sk LCTRL                  &sk LEFT_GUI            &sk LEFT_ALT     &msc SCRL_DOWN  &gqt HOME LEFT  &kp DOWN  &gqt END RIGHT  &kp PAGE_DOWN  &kp PAGE_UP
+&none         &to 7           &none           &kp LG(C)                  &kp LG(V)               &kp LS(LG(Z))    &none           &none           &none     &none           &none          &none
+                                              &to 5                      &kp LSHFT               &trans           &trans          &trans          &none
             >;
         };
 
         mouse_android {
             bindings = <
-&trans       &kp PAGE_UP    &trans    &gqt C_AC_BACK LS(LG(TAB))  &gqt C_AC_FORWARD LG(TAB)  &msc SCRL_UP      &msc SCRL_UP    &msc SCRL_LEFT  &mmv MOVE_UP    &msc SCRL_RIGHT  &kp PAGE_UP    &trans
-&kp PAGE_UP  &kp PAGE_DOWN  &mkp MB3  &mkp RCLK                   &mkp LCLK                  &msc SCRL_DOWN    &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp PAGE_DOWN  &kp PAGE_UP
-&trans       &trans         &trans    &kp LG(C)                   &kp LG(V)                  &trans            &trans          &trans          &trans          &trans           &trans         &trans
-                                      &to 5                       &trans                     &trans            &mkp LCLK       &mkp RCLK       &trans
+&trans       &kp PAGE_UP    &trans    &gqt LG(LEFT) LS(LG(TAB))  &gqt LG(RIGHT) LG(TAB)  &msc SCRL_UP      &msc SCRL_UP    &msc SCRL_LEFT  &mmv MOVE_UP    &msc SCRL_RIGHT  &kp PAGE_UP    &trans
+&kp PAGE_UP  &kp PAGE_DOWN  &mkp MB3  &mkp RCLK                  &mkp LCLK               &msc SCRL_DOWN    &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp PAGE_DOWN  &kp PAGE_UP
+&trans       &trans         &trans    &kp LG(C)                  &kp LG(V)               &trans            &trans          &trans          &trans          &trans           &trans         &trans
+                                      &to 5                      &trans                  &trans            &mkp LCLK       &mkp RCLK       &trans
             >;
         };
     };
