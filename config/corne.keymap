@@ -274,8 +274,8 @@
 
         nav {
             bindings = <
-&trans        &trans          &msc SCRL_DOWN    &gqt LG(LEFT) LS(LC(TAB))  &gqt LG(RIGHT) LC(TAB)  &kp LG(Z)        &msc SCRL_DOWN    &kp LA(LEFT)        &kp UP             &kp LA(RIGHT)         &kp PAGE_UP        &trans
-&msc SCRL_DOWN  &msc SCRL_UP  &kp LEFT_SHIFT  &sk LCTRL                  &sk LEFT_GUI            &sk LEFT_ALT     &msc SCRL_UP  &gqt LG(LEFT) LEFT  &kp DOWN           &gqt LG(RIGHT) RIGHT  &kp PAGE_DOWN      &kp PAGE_UP
+&trans        &trans          &msc SCRL_UP    &gqt LG(LEFT) LS(LC(TAB))  &gqt LG(RIGHT) LC(TAB)  &kp LG(Z)        &msc SCRL_UP    &kp LA(LEFT)        &kp UP             &kp LA(RIGHT)         &kp PAGE_UP        &trans
+&msc SCRL_UP  &msc SCRL_DOWN  &kp LEFT_SHIFT  &sk LCTRL                  &sk LEFT_GUI            &sk LEFT_ALT     &msc SCRL_DOWN  &gqt LG(LEFT) LEFT  &kp DOWN           &gqt LG(RIGHT) RIGHT  &kp PAGE_DOWN      &kp PAGE_UP
 &none         &to 3           &none           &kp LG(C)                  &kp LG(V)               &kp LS(LG(Z))    &trans          &trans              &trans             &trans                &kp LC(LA(LG(R)))  &none
                                               &to 0                      &kp LSHFT               &trans           &trans          &trans              &kp LA(LC(LG(Q)))
             >;
@@ -292,8 +292,8 @@
 
         mouse {
             bindings = <
-&trans       &kp PAGE_UP    &trans    &gqt LG(LEFT) LS(LC(TAB))  &gqt LG(RIGHT) LC(TAB)  &msc SCRL_UP      &msc SCRL_DOWN    &msc SCRL_LEFT  &mmv MOVE_UP    &msc SCRL_RIGHT  &kp PAGE_UP    &trans
-&kp PAGE_UP  &kp PAGE_DOWN  &mkp MB3  &mkp RCLK                  &mkp LCLK               &msc SCRL_DOWN    &msc SCRL_UP  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp PAGE_DOWN  &kp PAGE_UP
+&trans       &kp PAGE_UP    &trans    &gqt LG(LEFT) LS(LC(TAB))  &gqt LG(RIGHT) LC(TAB)  &msc SCRL_DOWN      &msc SCRL_UP    &msc SCRL_LEFT  &mmv MOVE_UP    &msc SCRL_RIGHT  &kp PAGE_UP    &trans
+&kp PAGE_UP  &kp PAGE_DOWN  &mkp MB3  &mkp RCLK                  &mkp LCLK               &msc SCRL_UP    &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp PAGE_DOWN  &kp PAGE_UP
 &trans       &trans         &trans    &kp LG(C)                  &kp LG(V)               &trans            &trans          &trans          &trans          &trans           &trans         &trans
                                       &to 0                      &trans                  &trans            &mkp LCLK       &mkp RCLK       &trans
             >;
@@ -319,8 +319,8 @@
 
         nav_android {
             bindings = <
-&none         &none           &msc SCRL_UP    &gqt K_BACK LS(LG(TAB))  &gqt K_FORWARD LG(TAB)  &kp LG(Z)        &msc SCRL_UP    &kp LG(LEFT)    &kp UP    &kp LG(RIGHT)   &kp PAGE_UP    &none
-&msc SCRL_UP  &msc SCRL_DOWN  &kp LEFT_SHIFT  &sk LCTRL                &sk LEFT_GUI            &sk LEFT_ALT     &msc SCRL_DOWN  &gqt HOME LEFT  &kp DOWN  &gqt END RIGHT  &kp PAGE_DOWN  &kp PAGE_UP
+&none         &none           &msc SCRL_DOWN    &gqt K_BACK LS(LG(TAB))  &gqt K_FORWARD LG(TAB)  &kp LG(Z)        &msc SCRL_DOWN    &kp LG(LEFT)    &kp UP    &kp LG(RIGHT)   &kp PAGE_UP    &none
+&msc SCRL_DOWN  &msc SCRL_UP  &kp LEFT_SHIFT  &sk LCTRL                &sk LEFT_GUI            &sk LEFT_ALT     &msc SCRL_UP  &gqt HOME LEFT  &kp DOWN  &gqt END RIGHT  &kp PAGE_DOWN  &kp PAGE_UP
 &none         &to 7           &none           &kp LG(C)                &kp LG(V)               &kp LS(LG(Z))    &none           &none           &none     &none           &none          &none
                                               &to 5                    &kp LSHFT               &trans           &trans          &trans          &none
             >;
@@ -328,8 +328,8 @@
 
         mouse_android {
             bindings = <
-&trans       &kp PAGE_UP    &kp LA(F4)  &gqt K_BACK LS(LC(TAB))  &gqt K_FORWARD LC(TAB)  &msc SCRL_UP      &msc SCRL_UP    &msc SCRL_LEFT  &mmv MOVE_UP    &msc SCRL_RIGHT  &kp PAGE_UP    &trans
-&kp PAGE_UP  &kp PAGE_DOWN  &mkp MB3    &mkp RCLK                &mkp LCLK               &msc SCRL_DOWN    &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp PAGE_DOWN  &kp PAGE_UP
+&trans       &kp PAGE_UP    &kp LA(F4)  &gqt K_BACK LS(LC(TAB))  &gqt K_FORWARD LC(TAB)  &msc SCRL_DOWN      &msc SCRL_DOWN    &msc SCRL_LEFT  &mmv MOVE_UP    &msc SCRL_RIGHT  &kp PAGE_UP    &trans
+&kp PAGE_UP  &kp PAGE_DOWN  &mkp MB3    &mkp RCLK                &mkp LCLK               &msc SCRL_UP    &msc SCRL_UP  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp PAGE_DOWN  &kp PAGE_UP
 &trans       &trans         &trans      &kp LG(C)                &kp LG(V)               &trans            &trans          &trans          &trans          &trans           &trans         &trans
                                         &to 5                    &trans                  &trans            &mkp LCLK       &mkp RCLK       &trans
             >;
