@@ -250,11 +250,6 @@
             key-positions = <9 21>;
         };
 
-        combo_homerow_search3 {
-            bindings = <&kp LA(LC(LG(Q)))>;
-            key-positions = <22 9>;
-        };
-
         combo_homerow_searchword2 {
             bindings = <&kp LG(LA(LC(T)))>;
             key-positions = <13 2>;
