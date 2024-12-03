@@ -249,11 +249,6 @@
             bindings = <&kp LG(LA(LC(T)))>;
             key-positions = <9 21>;
         };
-
-        combo_homerow_searchword2 {
-            bindings = <&kp LG(LA(LC(T)))>;
-            key-positions = <13 2>;
-        };
     };
 
     macros {
