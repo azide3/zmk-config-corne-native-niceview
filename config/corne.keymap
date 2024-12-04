@@ -241,11 +241,13 @@
         };
 
         combo_homerow_search2 {
+            timeout-ms = <35>;
             bindings = <&kp LA(LC(LG(Q)))>;
             key-positions = <19 7>;
         };
 
         combo_homerow_searchword {
+            timeout-ms = <35>;
             bindings = <&kp LG(LA(LC(T)))>;
             key-positions = <9 21>;
         };
