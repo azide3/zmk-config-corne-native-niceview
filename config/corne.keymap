@@ -312,14 +312,5 @@
                                   &to 0         &trans         &trans          &trans  &trans  &trans
             >;
         };
-
-        meh_list {
-            bindings = <
-&trans  &kp LA(LG(LC(Q)))  &kp LA(LC(LG(W)))  &kp LA(LG(LC(E)))  &kp LC(LG(LA(R)))  &kp LA(LC(LG(T)))    &kp LA(LC(LG(Y)))  &trans  &trans  &trans  &trans  &trans
-&trans  &trans             &trans             &trans             &trans             &trans               &trans             &trans  &trans  &trans  &trans  &trans
-&trans  &trans             &trans             &trans             &trans             &trans               &trans             &trans  &trans  &trans  &trans  &trans
-                                              &trans             &trans             &trans               &trans             &trans  &trans
-            >;
-        };
     };
 };
