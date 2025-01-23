@@ -289,6 +289,11 @@
             bindings = <&kp LG(LS(T))>;
             key-positions = <5 4 3 2>;
         };
+
+        combo_cmd_r {
+            bindings = <&kp LG(R)>;
+            key-positions = <3 4 5>;
+        };
     };
 
     macros {
