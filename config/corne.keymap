@@ -262,12 +262,12 @@
 
         combo_scroll_left {
             bindings = <&msc SCRL_LEFT>;
-            key-positions = <13 25>;
+            key-positions = <17 15 37>;
         };
 
         combo_scroll_right {
             bindings = <&msc SCRL_RIGHT>;
-            key-positions = <17 29>;
+            key-positions = <17 3 37>;
         };
 
         combo_cmd_w {
