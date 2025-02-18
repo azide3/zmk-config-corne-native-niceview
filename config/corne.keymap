@@ -397,33 +397,6 @@
             >;
         };
 
-        qwerty_android {
-            bindings = <
-&trans        &gqt TILDE Q  &kp W  &kp E         &kp R            &kp T                   &kp Y      &kp U                    &kp I                    &kp O                      &gqt SQT P            &trans
-&gqt TILDE Q  &kp A         &kp S  &gqt TAB D    &gqt LEFT_GUI F  &kp G                   &kp H      &gqt LEFT_GUI J          &kp K                    &kp L                      &gqt MINUS SEMICOLON  &gqt SQT P
-&trans        &kp Z         &kp X  &gqt LG(C) C  &gqt LG(V) V     &gqt LG(B) B            &kp N      &kp M                    &gqt LEFT_BRACKET COMMA  &gqt RIGHT_BRACKET PERIOD  &gqt BACKSLASH SLASH  &trans
-                                   &mo 6         &kp LSHFT        &gqt LS(ENTER) ENTER    &kp SPACE  &gqt LA(BSPC) BACKSPACE  &to 6
-            >;
-        };
-
-        nav_android {
-            bindings = <
-&none         &none           &msc SCRL_UP    &gqt K_BACK LS(LG(TAB))  &gqt K_FORWARD LG(TAB)  &kp LG(Z)        &msc SCRL_UP    &kp LG(LEFT)    &kp UP    &kp LG(RIGHT)   &kp PAGE_UP    &none
-&msc SCRL_UP  &msc SCRL_DOWN  &kp LEFT_SHIFT  &sk LCTRL                &sk LEFT_GUI            &sk LEFT_ALT     &msc SCRL_DOWN  &gqt HOME LEFT  &kp DOWN  &gqt END RIGHT  &kp PAGE_DOWN  &kp PAGE_UP
-&none         &to 7           &none           &kp LG(C)                &kp LG(V)               &kp LS(LG(Z))    &none           &none           &none     &none           &none          &none
-                                              &to 5                    &kp LSHFT               &trans           &trans          &trans          &none
-            >;
-        };
-
-        mouse_android {
-            bindings = <
-&trans       &kp PAGE_UP    &kp LA(F4)  &gqt K_BACK LS(LC(TAB))  &gqt K_FORWARD LC(TAB)  &msc SCRL_UP      &msc SCRL_UP    &msc SCRL_LEFT  &mmv MOVE_UP    &msc SCRL_RIGHT  &kp PAGE_UP    &trans
-&kp PAGE_UP  &kp PAGE_DOWN  &mkp MB3    &mkp RCLK                &mkp LCLK               &msc SCRL_DOWN    &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp PAGE_DOWN  &kp PAGE_UP
-&trans       &trans         &trans      &kp LG(C)                &kp LG(V)               &trans            &trans          &trans          &trans          &trans           &trans         &trans
-                                        &to 5                    &trans                  &trans            &mkp LCLK       &mkp RCLK       &trans
-            >;
-        };
-
         meh_list {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
