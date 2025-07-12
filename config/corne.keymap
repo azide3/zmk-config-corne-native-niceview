@@ -314,10 +314,10 @@
 
         mouse {
             bindings = <
-&trans  &none  &macro_doubleclick  &gqt LG(LEFT) LS(LC(TAB))  &gqt LG(RIGHT) LC(TAB)  &msc SCRL_UP      &msc SCRL_UP    &msc SCRL_LEFT  &mmv MOVE_UP    &msc SCRL_RIGHT  &kp PAGE_UP    &trans
-&none   &none  &mkp RCLK           &mkp MCLK                  &mkp LCLK               &msc SCRL_DOWN    &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp PAGE_DOWN  &kp PAGE_UP
-&trans  &none  &mkp MB5            &kp LG(C)                  &kp LG(V)               &mkp MB4          &trans          &trans          &trans          &trans           &trans         &trans
-                                   &to 0                      &trans                  &trans            &trans          &trans          &trans
+&trans &trans          &msc SCRL_UP  &gqt LG(LEFT) LS(LC(TAB))  &gqt LG(RIGHT) LC(TAB)  &none   &msc SCRL_UP    &msc SCRL_LEFT  &mmv MOVE_UP    &msc SCRL_RIGHT  &trans &trans 
+&trans &msc SCRL_DOWN  &mkp MCLK     &mkp RCLK                  &mkp LCLK               &none   &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans &trans 
+&trans &trans          &trans        &kp LG(C)                  &kp LG(V)               &trans  &trans          &trans          &trans          &trans           &trans &trans 
+                              &to 0                      &trans                  &trans  &trans          &trans          &trans
             >;
         };
 
