@@ -360,10 +360,10 @@
 
         meh_list {
             bindings = <
-&none  &kp Q  &kp W  &kp E  &kp R  &kp T    &none  &none     &kp UP    &none      &none   &none
-&none  &kp A  &kp S  &kp D  &kp F  &kp G    &none  &kp LEFT  &kp DOWN  &kp RIGHT  &none   &none
-&none  &none  &none  &none  &none  &none    &kp F  &kp N1    &kp N2    &kp N3     &kp N4  &none
-                     &none  &none  &none    &none  &none     &none
+&none  &kp LA(LC(Q))  &kp LA(LC(W))  &kp LA(LC(E))  &kp LA(LC(R))  &kp LC(LA(T))    &msc SCRL_UP                          &kp LC(MINUS)                     &gqt LC(LG(UP)) LC(UP_ARROW)  &kp LC(BACKSLASH)             &gqt LC(SLASH) LC(COMMA)      &none
+&none  &kp LA(LC(A))  &kp LC(LA(S))  &kp LA(LC(D))  &kp LA(LC(F))  &kp LA(LC(G))    &msc SCRL_DOWN                        &gqt LC(LG(LEFT)) LC(LEFT_ARROW)  &gqt LC(LG(DOWN)) LC(DOWN)    &gqt LC(LG(RIGHT)) LC(RIGHT)  &kp LA(TAB)                   &none
+&none  &none          &none          &none          &none          &none            &gqt LA(LS(LC(LG(F)))) LA(LC(LG(F)))  &gqt LA(LC(N1)) LA(NUMBER_1)      &gqt LA(LC(N2)) LA(NUMBER_2)  &gqt LA(LC(N3)) LA(NUMBER_3)  &gqt LC(LA(N4)) LA(NUMBER_4)  &none
+                                     &mo 1          &kp LSHIFT     &none            &none                                 &none                             &none
             >;
         };
     };
